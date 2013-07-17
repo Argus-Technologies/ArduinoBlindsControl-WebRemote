@@ -21,7 +21,7 @@ if (!isset($_GET['a']))
 	foreach ($config['ArduinoBlindsControl']['channels'] as $chan => $name)
 	{
 ?>
-					<option value="<?php echo $chan; ?>"><?php echo $name; ?></option>
+		<option value="<?php echo $chan; ?>"><?php echo $name; ?></option>
 <?php
 	}
 ?>
